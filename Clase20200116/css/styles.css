@@ -1,19 +1,27 @@
 body {
+	
+	font: menu;
+	font-size: large;
+	background-color:burlywood;
 	margin: 0;
 	padding: 0;
 }
 
 li {
+	background-color: burlywood;
 	list-style: none;
 	margin: 10px;
 }
 
 header {
+	background-color:burlywood;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 }
 
 ul {
+	font: menu;
+	font-size: large;
 	display: flex;
 	justify-content: flex-end;
 }
@@ -30,7 +38,10 @@ ul {
 	color: green;
 }
 
+
+
 footer {
-    position: absolute;
+    background-color:burlywood;
+	position: absolute;
     bottom: 0;
 }
